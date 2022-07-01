@@ -1,4 +1,0 @@
-host: 'localhost'
-adapter: 'sqlite'
-encoding: utf-8
-database: 'rspec_match_structure_test'

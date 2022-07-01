@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+$LOAD_PATH.push File.expand_path("lib", __dir__)
+
 require_relative "lib/rspec_create_model/version"
 
 Gem::Specification.new do |spec|
