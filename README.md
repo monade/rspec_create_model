@@ -10,7 +10,7 @@ A rspec matcher for Rail's ActiveRecord, to check the type of models created fro
 Add the gem to your Gemfile
 
 ```ruby
-  gem 'rspec_create_model', github: 'monade/rspec_create_model'
+  gem 'rspec_create_model'
 ```
 
 ## Example usage
@@ -55,3 +55,7 @@ expect { Author.create!(name: "Some author name") }.to create_model(Author)
 expect(@created_record).to be_a(Author)
 expect(@created_records).to all(be_a(Author))
 ```
+
+including the created records, you also could write tests on their content.
+
+Remember to checkout the Gem's specs to see how to use it!
