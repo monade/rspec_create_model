@@ -60,6 +60,10 @@ including the created records, you also could write tests on their content.
 
 Remember to checkout the Gem's specs to see how to use it!
 
+## License
+
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
 About Monade
 ----------------
 
